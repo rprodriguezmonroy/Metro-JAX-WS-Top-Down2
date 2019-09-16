@@ -137,6 +137,7 @@
 					</wsdlFiles>
 					<sourceDestDir>${basedir}/generated/java/source</sourceDestDir>
 					<vmArgs>
+						<vmArg>-Djavax.xml.accessExternalDTD=all</vmArg>
 						<vmArg>-Djavax.xml.accessExternalSchema=all</vmArg>
 					</vmArgs>
 					<verbose>true</verbose>
